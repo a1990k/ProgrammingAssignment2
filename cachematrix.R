@@ -1,8 +1,9 @@
-##takes a matrix myX and caches it in X
+##takes a matrix myX and caches it in X and returns X
 #also creates the Xinv variable which holds the inverse when needed
 makeCacheMatrix <- function(myX = matrix()) {
         Xinv <<- NULL
         X <<- myX
+        X
 }
 
 
